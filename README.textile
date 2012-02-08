@@ -1,0 +1,50 @@
+h1. CSCE 221 Assignment 2
+
+h2. Michael Kosler, Michael Parsons
+
+_To be completed_
+
+h2. 02/07/2012
+
+_To be completed_
+
+h3. Program Description
+
+_To be completed_
+
+h3. Purpose of the Assignment
+
+_To be completed_
+
+h3. Data Structures Description
+
+_To be completed_
+
+h3. Algorithm Description
+
+_To be completed_
+
+h3. Program Organization and Description of Classes
+
+_To be completed_
+
+h3. Instructions to Compile and Run Your Program
+
+_To be completed_
+
+h3. Input and Output Specifications
+
+_To be completed_
+
+h3. Logical Exceptions
+
+_To be completed_
+
+h3. C++ Object-Oriented or Generic Programming Features
+
+_To be completed_
+
+h3. Tests
+
+_To be completed_
+
