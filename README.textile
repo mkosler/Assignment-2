@@ -1,12 +1,7 @@
 h1. CSCE 221 Assignment 2
 
-h2. Michael Kosler, Michael Parsons
-
-_To be completed_
-
-h2. 02/07/2012
-
-_To be completed_
+*Michael Kosler, Michael Parsons*
+*02/07/2012*
 
 h3. Program Description
 
