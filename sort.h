@@ -1,8 +1,9 @@
 //============================================================================
 // Name        : sort.h
-// Author      : 
-// Date        :
-// Copyright   : 
+// Author      : Michael Kosler, Michael Parsons, Doug ...
+// Date        : 02/07/2012
+// Copyright   : GPL v3
+// 		 Additional licenses can be found in the README.
 // Description : Sort interface and various sorting algorithms in C++
 //============================================================================
 
