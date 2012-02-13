@@ -19,10 +19,11 @@ InsertionSort::sort(int A[], int size)				// main entry point
 	for (int i = 1; i < size; i++)
 	{
 		temp = A[i];
-		for (int j = i; (num_cmps++, j > 0) && (num_cmps++, temp < A[j - 1]); j--)
+		int k = i;
+		for (; (num_cmps++, k > 0) && (num_cmps++, temp < A[k - 1]); k--)
 		{
-			A[j] = A[j - 1];
+			A[k] = A[k - 1];
 		}
-		A[j] = temp;
+		A[k] = temp;
 	}
 }

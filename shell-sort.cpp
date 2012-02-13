@@ -21,7 +21,8 @@ ShellSort::sort(int A[], int size)
 		for (int i = gap; i < size; i++)
 		{
 			temp = A[i];
-			for (int j = i; (num_cmps++, j >= gap) && (num_cmps++, temp < A[j - gap]); j -= gap)
+			int j = i;
+			for (; (num_cmps++, j >= gap) && (num_cmps++, temp < A[j - gap]); j -= gap)
 			{
 				A[j] = A[j - gap];
 			}

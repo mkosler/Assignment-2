@@ -33,15 +33,39 @@ h3. Algorithm Description
 
 h3. Program Organization and Description of Classes
 
-
+The program is organized into separate classes for each sorting function. For example, insertion sort is encapsulated within its own class, and bubble
+sort is encapsulated within its own class. They all inherit from a superclass, sort, which provides a virtual function sort and a protected variable
+num_cmps.
 
 h3. Instructions to Compile and Run Your Program
 
-_To be completed_
+In the command line:
+	cd path/to/files/
+	make
+	
+    Usage: ./sort [-a ALGORITHM] [-f INPUTFILE] [-o OUTPUTFILE] [-h] [-d] [-t] [-c]
+    Example: ./sort -a S -f input.txt -o output.txt -t -c -d
+             ./sort -h
+    Options:
+      -a ALGORITHM    Use ALGORITHM to sort.
+                      ALGORITHM is a single character representing an algorithm
+                        'S'   (selection sort),
+                        'B'   (bubble sort),
+                        'I'   (insertion sort), or
+                        'H'   (shell sort)
+      -f INPUTFILE    Obtain integers from INPUTFILE instead of STDIN
+      -o OUTPUTFILE   Place output message into OUTPUTFILE instead of STDOUT
+      -h              Display this help and exit
+      -d              Display input integers before displaying output message
+      -t              Display running time of the chosen algorithm in milliseconds
+      -c              Display number of element comparisons
 
 h3. Input and Output Specifications
 
-_To be completed_
+The input files need to be formatted so that the first line in the file is the size of the array of numbers (to be sorted). Then every number in the
+array needs to be added to its own line.
+
+The output file is similar to the input file, except it will only print out the sorted numbers, and not worry about the size of the array.
 
 h3. Logical Exceptions
 
@@ -49,7 +73,9 @@ _To be completed_
 
 h3. C++ Object-Oriented or Generic Programming Features
 
-_To be completed_
+Our program uses inheritance and polymorphism heavily. The main reason we split the program into classes is to give an easier interface to understand.
+Every single sort class has a sort function; every single sort class has a num_cmps variable. We used an abstract class as a pseudo-template for the
+subclasses. We also gave the user the oppportunity to test the function against their own inputfiles.
 
 h3. Tests
 

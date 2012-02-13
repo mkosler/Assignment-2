@@ -33,11 +33,15 @@ h3. Algorithm Description
 
 h3. Program Organization and Description of Classes
 
-_To be completed_
+The main reason we split the program into classes is to give an easier interface to understand. Every single sort class has a sort function; every 
+single sort class has a num_cmps variable. We used an abstract class as a pseudo-template for the subclasses.
 
 h3. Instructions to Compile and Run Your Program
 
-_To be completed_
+In the command line:
+	cd path/to/files/
+	make
+	
 
 h3. Input and Output Specifications
 
