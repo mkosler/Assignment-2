@@ -1,23 +1,35 @@
 h1. CSCE 221 Assignment 2
 
 *Michael Kosler, Michael Parsons, Doug Lasater*
+_mkosler@tamu.edu, mparsons1771@gmail.com, dwlasater@gmail.com_
 *02/07/2012*
 
 h3. Program Description
 
-_To be completed_
+Assignment 2 deals mainly with the testing various sorting functions, specifically *selection sort*, *insertion sort*, *bubble sort*, *shell sort*, 
+and *radix sort*. The user of the program is required to write in a few command line arguments that tell the program:
+
+* which sorting algorithm to use;
+* where to get its input source;
+* where to insert the sorted output;
 
 h3. Purpose of the Assignment
 
-_To be completed_
+In addition to implementing various sorting algorithms, the assignment is trying to show us how different algorithms compare to one another directly. 
+We are also supposed to see that the algorithms have much different run times based on the size of their input, which gives us a good visualization 
+of how a run-time function (and asymptotic notation) works in a real world scenario.
 
 h3. Data Structures Description
 
-_To be completed_
+We are mainly sorting through arrays of integers, so nothing fancy there.
 
 h3. Algorithm Description
 
-_To be completed_
+* *Selection Sort:*
+* *Insertion Sort:*
+* *Bubble Sort:*
+* *Shell Sort:*
+* *Radix Sort:*
 
 h3. Program Organization and Description of Classes
 
