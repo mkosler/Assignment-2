@@ -12,12 +12,12 @@
 
 class Sort {
 protected:
-   int num_cmps; // number of comparisons performed in sort function
+   double num_cmps; // number of comparisons performed in sort function
 public:
    virtual void sort(int A[], int size) = 0;    // main entry point
    bool testIfSorted(int A[], int size);        // returns false if not sorted
                                                 // true otherwise
-   int getNumCmps() { return num_cmps; }        // returns # of comparisons
+   double getNumCmps() { return num_cmps; }        // returns # of comparisons
 };
 
 class SelectionSort:public Sort {	// SelectionSort class
